@@ -1,0 +1,1 @@
+CREATE TABLE `if23_jooep`.`suva` (`id` INT(11) NOT NULL , `rename` VARCHAR(140) NOT NULL , `orginalnimi` VARCHAR(140) NOT NULL , `allikad` VARCHAR(256) NOT NULL , `privacy` INT(1) NOT NULL , `userid` INT(11) NOT NULL , `added` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `deleted` DATETIME NOT NULL ) ENGINE = InnoDB;
